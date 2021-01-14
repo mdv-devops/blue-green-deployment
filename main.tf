@@ -119,7 +119,7 @@ resource "aws_autoscaling_group" "web_asg" {
   health_check_type         = "ELB"
   min_elb_capacity          = 2
   vpc_zone_identifier       = data.aws_subnet_ids.public_subnet.ids
-  wait_for_capacity_timeout = "3m"
+  wait_for_capacity_timeout = "6m"
 
   dynamic "tag" {
     for_each = {
