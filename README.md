@@ -1,7 +1,6 @@
 
 ##====== Green-blue-deployment ======
-
-* 
+ 
 * Using Amazon Application Load Balancer
 * Registering your domain name with Amazon Route53 service
 * Creating Auto Scaling Group
